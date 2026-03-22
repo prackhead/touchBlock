@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="button_width"
+        android:title="@string/pref_button_width"
+        android:defaultValue="48"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        android:key="button_height"
+        android:title="@string/pref_button_height"
+        android:defaultValue="48"
+        app:useSimpleSummaryProvider="true" />
+
+    <SeekBarPreference
+        android:key="opacity"
+        android:title="@string/pref_opacity"
+        android:defaultValue="80"
+        android:max="100" />
+
+    <SwitchPreferenceCompat
+        android:key="draggable"
+        android:title="@string/pref_draggable"
+        android:summary="@string/pref_draggable_summary"
+        android:defaultValue="true" />
+
+</PreferenceScreen>

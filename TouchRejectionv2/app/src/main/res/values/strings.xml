@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TouchRejection v2</string>
+    <string name="accessibility_service_description">Blocks finger touch input while allowing S-Pen stylus to work normally. Tap the floating button or press Volume Down to toggle.</string>
+    <string name="touch_rejection_enable">Touch rejection ON</string>
+    <string name="touch_rejection_disable">Touch rejection OFF</string>
+    <string name="service_already_running">TouchRejection is running</string>
+    <string name="enable_accessibility">Please enable TouchRejection v2 in Accessibility settings</string>
+    <string name="settings_title">TouchRejection Settings</string>
+    <string name="pref_button_width">Button width (dp)</string>
+    <string name="pref_button_height">Button height (dp)</string>
+    <string name="pref_opacity">Button opacity (%)</string>
+    <string name="pref_draggable">Draggable button</string>
+    <string name="pref_draggable_summary">Allow dragging the toggle button to reposition</string>
+</resources>
